@@ -110,7 +110,7 @@ export default function Home() {
     </div>
     {/* {Hero} */}
     <div className={style.heroContainer}>
-       <h1 className={style.heroHeader}>Arbitrum AI Blockchain RPG</h1>
+       <h1 className={style.heroHeader}>Arbitrum Blockchain RPG</h1>
        <div className={style.heroText}>
          Decentralized community owned MMORPG
        </div>
@@ -159,6 +159,7 @@ export default function Home() {
        <li className={style.airdropItems}>Already over 10,000 signups for upcoming BETA</li>
        <li className={style.airdropItems}>Token holders given priority</li>
        <li className={style.airdropItems}>Subscribe for a chance to be selected</li>
+       <li className={style.airdropItems}>Get Involved in the GameFi Revolution</li>
        </ul>
        <form onSubmit={subscribe}>
          <input value={email} onChange={(e)=>setEmail(e.target.value)} className={style.emailInput} type='email' placeholder='Sign up with your Email' />
