@@ -55,6 +55,7 @@ export default function Home() {
     if (res.status === 201){
       setSubmitComplete(true)
     }
+    setEmail('')
   }
 
   const phases = [
