@@ -118,7 +118,7 @@ export default function Home() {
     </div>
     {/* {Image} */}
     <div className={style.imageChar}>
-    <Image src='/../public/degen-pepe.png' height={400} width={400} alt='pepe degen warrior' />
+    <Image src='../public/degen-pepe.png' height={400} width={400} alt='pepe degen warrior' />
     </div>
     {/* {roadmap} */}
     <div className={style.roadmapContainer}>
@@ -150,7 +150,7 @@ export default function Home() {
     </div>
     {/* {Image} */}
     <div className={style.imageCharTwo}>
-    <Image src='/../public/degen-chad.png' height={400} width={400} alt='pepe degen warrior' />
+    <Image src='../public/degen-chad.png' height={400} width={400} alt='pepe degen warrior' />
     </div>
     <div className={style.airdrop}>
        <h1 className={style.sectionHeader}>Airdrop</h1>
@@ -175,8 +175,8 @@ export default function Home() {
        <p>Email: info@company.com</p>
       </div>
       <div className={style.footerLogos}>
-        <Image src='/../public/arbitrum-logo.png' height={100} width={100} alt='arbitrum logo' />
-        <Image className='md:py-2' src='/../public/logo-degen.png' height={100} width={100} alt='Degen Wars Logo' />
+        <Image src='../public/arbitrum-logo.png' height={100} width={100} alt='arbitrum logo' />
+        <Image className='md:py-2' src='../public/logo-degen.png' height={100} width={100} alt='Degen Wars Logo' />
       </div>
       <div className={style.socialsFooter}>
       <a href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} className='h-8 mx-2 hover:cursor-pointer' /></a>
