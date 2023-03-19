@@ -175,7 +175,7 @@ export default function Home() {
        <p>Email: info@company.com</p>
       </div>
       <div className={style.footerLogos}>
-        <Image src='/arbitrum-logo.png' height={100} width={100} alt='arbitrum logo' />
+        <Image src='https://ibb.co/fF9nN5C' height={100} width={100} alt='arbitrum logo' />
         <Image className='md:py-2' src='/logo-degen.png' height={100} width={100} alt='Degen Wars Logo' />
       </div>
       <div className={style.socialsFooter}>
