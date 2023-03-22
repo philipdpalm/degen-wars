@@ -7,11 +7,11 @@ import {Link} from 'react-scroll';
 
 const style = {
   page: `h-full bg-[#293246ff] text-white`,
-  nav: `md:text-center lg:flex justify-between md:h-[100px] md:items-center md:px-8`,
+  nav: `p-4 md:grid md:justify-items-center`,
   options: `grid grid-cols-1 sm:flex sm:mx-[20%] md:gap-between pb-4 md:pb-0`,
-  socials: `flex p-2 lg:p-0 lg:mr-4 items-center justify-center`,
-  items: `mx-4 text-lg font-base cursor-pointer hover:text-[#96BEDCff]`,
-  logo: `sm:text-center font-black italic mx-4 md:mx-0 text-3xl pt-4 pb-4 md:pt-0 md:pb-0 border-black`,
+  socials: `flex p-4 lg:mr-4 items-center justify-center`,
+  items: `mx-4 text-lg text-center font-base cursor-pointer hover:text-[#96BEDCff]`,
+  logo: `sm:inline-block lg:block sm:text-center font-black italic mx-4 md:mx-0 text-3xl pt-4 pb-4 md:pt-0 md:pb-0 border-black`,
   heroContainer: `text-center mb-[20px] md:h-[250px]`,
   heroHeader: `text-4xl md:text-7xl font-bold mt-[100px] md:mt-[150px] bg-gradient-to-r from-[#28A0F0ff] via-[#96BEDCff] to-[white] p-1 text-transparent bg-clip-text`,
   heroText:`text-lg md:text-2xl`,
@@ -96,7 +96,7 @@ export default function Home() {
     <div className={style.page}>
     {/* {Nav} */}
        <div className={style.nav}>
-        <h1 className={style.logo}>Degen Wars</h1>
+       <Image className={style.logo} src='/../public/degen-logo.png' height={250} width={300} alt='Degen Wars Logo' />
         <div className={style.options}>
             <a className={style.items}>Whitepaper</a>
             <Link to="roadmap" smooth={true} offset={10} duration={500} className={style.items}>Roadmap</Link>
@@ -110,7 +110,7 @@ export default function Home() {
     </div>
     {/* {Hero} */}
     <div className={style.heroContainer}>
-       <h1 className={style.heroHeader}>Arbitrum Blockchain RPG</h1>
+       <h1 className={style.heroHeader}>Arbitrum AI Blockchain RPG</h1>
        <div className={style.heroText}>
          Decentralized community owned MMORPG
        </div>
@@ -118,7 +118,7 @@ export default function Home() {
     </div>
     {/* {Image} */}
     <div className={style.imageChar}>
-    <Image src='/degen-pepe.png' height={400} width={400} alt='pepe degen warrior' />
+    <Image src='/../public/degen-pepe.png' height={400} width={400} alt='pepe degen warrior' />
     </div>
     {/* {roadmap} */}
     <div className={style.roadmapContainer}>
@@ -150,7 +150,7 @@ export default function Home() {
     </div>
     {/* {Image} */}
     <div className={style.imageCharTwo}>
-    <Image src='/degen-chad.png' height={400} width={400} alt='pepe degen warrior' />
+    <Image src='/../public/degen-chad.png' height={400} width={400} alt='pepe degen warrior' />
     </div>
     <div className={style.airdrop}>
        <h1 className={style.sectionHeader}>Airdrop</h1>
@@ -159,7 +159,6 @@ export default function Home() {
        <li className={style.airdropItems}>Already over 10,000 signups for upcoming BETA</li>
        <li className={style.airdropItems}>Token holders given priority</li>
        <li className={style.airdropItems}>Subscribe for a chance to be selected</li>
-       <li className={style.airdropItems}>Get Involved in the GameFi Revolution</li>
        </ul>
        <form onSubmit={subscribe}>
          <input value={email} onChange={(e)=>setEmail(e.target.value)} className={style.emailInput} type='email' placeholder='Sign up with your Email' />
@@ -169,15 +168,14 @@ export default function Home() {
     </div>
     <div className={style.footer} id='contact'>
       {/* {Contact and company info} */}
-      <h1 className={style.footerLogo}>Degen Wars</h1>
       <div className='mb-8 md:mb-0'>
        <p>Degen Wars by Degen Labs Limited. {year}</p>
        <p>100 Place Street, London, SE1 2AA, UK, Company Number: 0000000</p>
        <p>Email: info@company.com</p>
       </div>
       <div className={style.footerLogos}>
-        <Image src='/arbitrum-logo.png' height={100} width={100} alt='arbitrum logo' />
-        <Image className='md:py-2' src='/logo-degen.png' height={100} width={100} alt='Degen Wars Logo' />
+        <Image src='/../public/arbitrum-logo.png' height={100} width={100} alt='arbitrum logo' />
+        <Image className='md:py-4' src='/../public/degen-logo.png' height={50} width={300} alt='Degen Wars Logo' />
       </div>
       <div className={style.socialsFooter}>
       <a href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} className='h-8 mx-2 hover:cursor-pointer' /></a>
