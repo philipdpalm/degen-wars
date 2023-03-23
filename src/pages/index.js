@@ -178,8 +178,8 @@ export default function Home() {
         <Image className='md:py-4' src='/degen-logo.png' height={50} width={300} alt='Degen Wars Logo' />
       </div>
       <div className={style.socialsFooter}>
-      <a href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} className='h-8 mx-2 hover:cursor-pointer' /></a>
-      <a href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faTelegram} className='h-8 mx-2 hover:cursor-pointer' /></a>
+      <a href="https://twitter.com/Degenwars_arb" target="_blank"><FontAwesomeIcon icon={faTwitter} className='h-8 mx-2 hover:cursor-pointer' /></a>
+      <a href="https://t.me/+3gmcYs3zPQs2ODRk" target="_blank"><FontAwesomeIcon icon={faTelegram} className='h-8 mx-2 hover:cursor-pointer' /></a>
         </div>
     </div>
     </div>
