@@ -4,14 +4,15 @@ import { faTwitter, faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import {Link} from 'react-scroll';
+import {logo} from '../../public/degen-logo.png'
 
 const style = {
-  page: `h-full bg-[#293246ff] text-white`,
-  nav: `p-4 md:grid md:justify-items-center`,
-  options: `grid grid-cols-1 sm:flex sm:mx-[20%] md:gap-between pb-4 md:pb-0`,
-  socials: `flex p-4 lg:mr-4 items-center justify-center`,
-  items: `mx-4 text-lg text-center font-base cursor-pointer hover:text-[#96BEDCff]`,
-  logo: `sm:inline-block lg:block sm:text-center font-black italic mx-4 md:mx-0 text-3xl pt-4 pb-4 md:pt-0 md:pb-0 border-black`,
+  page: `h-full w-full bg-[#293246ff] text-white`,
+  nav: `sm:flex justify-between items-center justify-center p-8`,
+  options: `grid grid-cols-1 px-3.5 md:px-0  sm:flex`,
+  socials: ``,
+  items: `text-lg font-base cursor-pointer hover:text-[#96BEDCff] sm:mx-2 md:mx-4`,
+  logo: ``,
   heroContainer: `text-center mb-[20px] md:h-[250px]`,
   heroHeader: `text-4xl md:text-7xl font-bold mt-[100px] md:mt-[150px] bg-gradient-to-r from-[#28A0F0ff] via-[#96BEDCff] to-[white] p-1 text-transparent bg-clip-text`,
   heroText:`text-lg md:text-2xl`,
@@ -96,16 +97,15 @@ export default function Home() {
     <div className={style.page}>
     {/* {Nav} */}
        <div className={style.nav}>
-       <Image className={style.logo} src='/degen-logo.png' height={250} width={300} alt='Degen Wars Logo' />
+       <Image className={style.logo} src='/degen-logo.png'
+       height={150}
+       width={300}
+       />
         <div className={style.options}>
             <a className={style.items}>Whitepaper</a>
             <Link to="roadmap" smooth={true} offset={10} duration={500} className={style.items}>Roadmap</Link>
             <Link to="tokenomics" smooth={true} offset={10} duration={500} className={style.items}>Tokenomics</Link>
             <Link to="contact" smooth={true} offset={50} duration={500} className={style.items}>Contact</Link>
-        </div>
-        <div className={style.socials}>
-        <a href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} className='h-8 mx-2 hover:cursor-pointer' /></a>
-        <a href="https://Telegram.com/" target="_blank"><FontAwesomeIcon icon={faTelegram} className='h-8 mx-2 hover:cursor-pointer' /></a>
         </div>
     </div>
     {/* {Hero} */}
