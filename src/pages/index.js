@@ -102,7 +102,7 @@ export default function Home() {
        width={300}
        />
         <div className={style.options}>
-            <a className={style.items}>Whitepaper</a>
+            <a src="https://www.notion.so/degen-wars/Degen-Wars-White-Paper-92a2f1f74b544ebc993e6562b571f8cd?pvs=4" className={style.items}>Whitepaper</a>
             <Link to="roadmap" smooth={true} offset={10} duration={500} className={style.items}>Roadmap</Link>
             <Link to="tokenomics" smooth={true} offset={10} duration={500} className={style.items}>Tokenomics</Link>
             <Link to="contact" smooth={true} offset={50} duration={500} className={style.items}>Contact</Link>
