@@ -96,7 +96,7 @@ export default function Home() {
     <div className={style.page}>
     {/* {Nav} */}
        <div className={style.nav}>
-       <Image className={style.logo} src='/../public/degen-logo.png' height={250} width={300} alt='Degen Wars Logo' />
+       <Image className={style.logo} src='/degen-logo.png' height={250} width={300} alt='Degen Wars Logo' />
         <div className={style.options}>
             <a className={style.items}>Whitepaper</a>
             <Link to="roadmap" smooth={true} offset={10} duration={500} className={style.items}>Roadmap</Link>
@@ -118,7 +118,7 @@ export default function Home() {
     </div>
     {/* {Image} */}
     <div className={style.imageChar}>
-    <Image src='/../public/degen-pepe.png' height={400} width={400} alt='pepe degen warrior' />
+    <Image src='/degen-pepe.png' height={400} width={400} alt='pepe degen warrior' />
     </div>
     {/* {roadmap} */}
     <div className={style.roadmapContainer}>
@@ -150,7 +150,7 @@ export default function Home() {
     </div>
     {/* {Image} */}
     <div className={style.imageCharTwo}>
-    <Image src='/../public/degen-chad.png' height={400} width={400} alt='pepe degen warrior' />
+    <Image src='/degen-chad.png' height={400} width={400} alt='pepe degen warrior' />
     </div>
     <div className={style.airdrop}>
        <h1 className={style.sectionHeader}>Airdrop</h1>
@@ -174,8 +174,8 @@ export default function Home() {
        <p>Email: info@company.com</p>
       </div>
       <div className={style.footerLogos}>
-        <Image src='/../public/arbitrum-logo.png' height={100} width={100} alt='arbitrum logo' />
-        <Image className='md:py-4' src='/../public/degen-logo.png' height={50} width={300} alt='Degen Wars Logo' />
+        <Image src='/arbitrum-logo.png' height={100} width={100} alt='arbitrum logo' />
+        <Image className='md:py-4' src='/degen-logo.png' height={50} width={300} alt='Degen Wars Logo' />
       </div>
       <div className={style.socialsFooter}>
       <a href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} className='h-8 mx-2 hover:cursor-pointer' /></a>
