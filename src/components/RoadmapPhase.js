@@ -1,7 +1,7 @@
 import React from 'react'
 
 const style={
-    phaseContainer: `bg-[#96BEDCff] border-[#1E2839ff] border-double border-[6px] w-[250px] text-[#293246ff] p-8 rounded-md md:mx-4 mb-10`,
+    phaseContainer: `bg-[#293246ff] border-[#fff] border w-[250px] text-[#fff] p-8 rounded-md md:mx-4 mb-10`,
     header: `text-base mb-4 text-xl`,
     listItems: `text-sm list-disc text-left font-medium text-lg`
 }
