@@ -114,7 +114,7 @@ export default function Home() {
        <div className={style.heroText}>
          Decentralized community owned MMORPG
        </div>
-       <button className={style.buyNow}>Buy Now</button>
+       <button className={style.buyNow}>Coming Soon</button>
     </div>
     {/* {Image} */}
     <div className={style.imageChar}>
