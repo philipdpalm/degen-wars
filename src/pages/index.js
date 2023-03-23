@@ -21,7 +21,7 @@ const style = {
   roadmapList: `lg:flex lg:mx-[200px] lg:justify-between inline-block md:flex`,
   tokenomicsContainer: `mt-12 text-center text-6xl font-bold w-full p-4 md:mb-4`,
   sectionHeader: `mb-16`,
-  token: `text-sm bg-[#293246ff] border-[#fff] border border-[6px] text-[#fff] w-[50%] md:w-[40%] rounded-md p-12 md:text-xl lg:text-3xl inline-block mb-16 mt-8`,
+  token: `text-sm bg-[#293246ff] border-[#fff] border border text-[#fff] w-[50%] md:w-[40%] rounded-md p-12 md:text-xl lg:text-3xl inline-block mb-16 mt-8`,
   airdrop: `text-6xl font-bold text-center mb-[100px]`,
   airdropList: `list-disc text-left inline-block mb-8`,
   airdropItems: `text-xl mb-4 md:text-4xl px-4`,
