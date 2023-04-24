@@ -169,9 +169,9 @@ export default function Home() {
     <div className={style.footer} id='contact'>
       {/* {Contact and company info} */}
       <div className='mb-8 md:mb-0'>
-       <p>Degen Wars by Degen Labs Limited. {year}</p>
-       <p>100 Place Street, London, SE1 2AA, UK, Company Number: 0000000</p>
-       <p>Email: info@company.com</p>
+       <p>Degen Wars by Degen Labs Corporation Ltd  {year}</p>
+       <p>87 Chancery Lane, London, WC2A 1ET, UK, Company Number: 14775752</p>
+       <p>Email: info@degenlabs.agency</p>
       </div>
       <div className={style.footerLogos}>
         <Image src='/arbitrum-logo.png' height={100} width={100} alt='arbitrum logo' />
